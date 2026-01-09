@@ -35,6 +35,7 @@ nav .menu li a{
     background-color: #30B868;
     border-radius: 4px;
     font-size: 16px;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #001931;
@@ -71,14 +72,15 @@ nav .menu li a{
     align-items: center;
     border: none;
     font-weight: 600;
-}
-.works-btn:hover{
-    background-color: #001931;
-    box-shadow: 0 2px 4px  #001931;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #30B868;
 }
 .vault-btn:hover{
     background: none;
     border: 2px solid #30B868;
+    cursor: pointer; 
+    
 }
 .works-btn{
     color: #FFFFFF;
@@ -89,7 +91,12 @@ nav .menu li a{
     background: transparent;
     border-radius: 4px;
     font-weight: 600;
-
+    cursor: pointer;
+}
+.works-btn:hover{
+    background-color: #30B868;
+    box-shadow: 0 2px 4px  #001931;
+    cursor: pointer;
 }
 .hero-tittle{
     padding: 8px 12px;
@@ -234,9 +241,11 @@ nav .menu li a{
     display: flex;
     justify-content: center;
     border-radius: 4px;
+    cursor: pointer;
 }
 .cta-btn:hover{
     background-color:  #001931;;
+    cursor: pointer;
     
 }
 .cta-btn{
