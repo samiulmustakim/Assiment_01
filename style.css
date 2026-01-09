@@ -36,6 +36,9 @@ nav .menu li a{
     border-radius: 4px;
     font-size: 16px;
 }
+.btn:hover{
+    background-color: #001931;
+}
 .hero{
     background: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     min-width: 100vh;
@@ -68,6 +71,14 @@ nav .menu li a{
     align-items: center;
     border: none;
     font-weight: 600;
+}
+.works-btn:hover{
+    background-color: #001931;
+    box-shadow: 0 2px 4px  #001931;
+}
+.vault-btn:hover{
+    background: none;
+    border: 2px solid #30B868;
 }
 .works-btn{
     color: #FFFFFF;
@@ -133,7 +144,7 @@ nav .menu li a{
     gap: 24px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 -2px 9px rgba(14, 12, 12, 0.06);
 
 }
 .skill-card .logo-bg{
@@ -224,6 +235,10 @@ nav .menu li a{
     justify-content: center;
     border-radius: 4px;
 }
+.cta-btn:hover{
+    background-color:  #001931;;
+    
+}
 .cta-btn{
     display: flex;
     gap: 10px;
@@ -235,7 +250,7 @@ nav .menu li a{
     padding: 16px;
     background-color: #30B868;
     border: none;
-    color: white;
+    color: #FFFFFF;
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
     
 }
@@ -249,8 +264,6 @@ nav .menu li a{
 .footer-container{
     background-color: #001931;
     color: white;
-    
-
 }
 .footer-main{
     width: 71%;
