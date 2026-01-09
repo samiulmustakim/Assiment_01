@@ -6,6 +6,7 @@
 .font-family{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    color: #001931;
 }
 .first-header{
     display: flex;
@@ -131,7 +132,8 @@ nav .menu li a{
     padding: 69.5px 24px;
     gap: 24px;
     text-align: center;
-    box-shadow: 0 0 6px #9daab6;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
 
 }
 .skill-card .logo-bg{
@@ -154,8 +156,93 @@ nav .menu li a{
     font-weight: 600;
     margin-bottom: 16px;
 }
+.solution{
+    padding: 120px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);;
+    
+}
 .solution-section{
     display: flex;
-    padding: 120px;
+    align-items: center;
+    gap: 60px;
+    width: 80%;
+    margin: 0 auto;
     
+}
+.solution-text h5{
+    color: #30B868;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.solution-text h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.solution-text h4{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.solution-text .solution-marking p{
+    display: flex;
+    align-items: center;
+    gap: 7.87px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.solution-text .solution-marking .solution-right{
+    margin-bottom: 16px;
+}
+.cta-container{
+    width: 70%;
+    max-width: 1360px;
+    padding: 80px 40px;
+    margin: 0 auto 120px;
+    background-color: rgba(247, 246, 242, 1);;
+    text-align: center;
+    
+
+}
+.cta-container h2{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+
+}
+.cta-container p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.cta-button{
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.cta-btn{
+    display: flex;
+    gap: 10px;
+}
+.cta-container button{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    background-color: #30B868;
+    border: none;
+    color: white;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+    
+}
+.cta-container .cta-ending{
+    font-size: 16px;
+    font-weight: 400;
+}
+.cta-button img{
+    width: 20px;
 }
